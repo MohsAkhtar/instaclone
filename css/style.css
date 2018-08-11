@@ -1,0 +1,28 @@
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #fafafa;
+  border-bottom: 1px solid #ccc;
+}
+
+header a {
+  box-sizing: border-box;
+  width: 25%;
+  display: inline-block;
+  margin-left: -3px;
+  text-align: center;
+  padding: 12px;
+}
+
+.fas {
+  color: lll;
+  font-size: 25px;
+}
+
+a:hover .fa-heart {
+  color: red;
+}
