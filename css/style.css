@@ -51,7 +51,6 @@ a:hover .fa-heart {
   background: #fff;
   margin: 0 auto;
   width: 400px;
-  height: 400px;
   border: 1px solid #ccc;
   border-radius: 2px;
 }
@@ -75,13 +74,22 @@ a:hover .fa-heart {
   margin-right: 5px;
 }
 
-.name {
-  color: #111;
-  font-size: 14px;
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.username {
   font-weight: 700;
 }
 
-.location {
+.profile-name {
+  color: #111;
+  font-size: 14px;
+}
+
+.profile-location {
   color: #111;
   font-size: 12px;
 }
@@ -91,4 +99,69 @@ a:hover .fa-heart {
   font-size: 10px;
   top: 10px;
   position: relative;
+}
+
+.content img {
+  width: 100%;
+}
+
+.card-footer {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.description p {
+  margin: 0;
+  font-size: 14px;
+  padding: 0 0 5px 0;
+}
+
+.likes {
+  color: #405de6;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.comments p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+
+form {
+  padding-top: 15px;
+}
+
+form .fas {
+  font-size: 24px;
+}
+
+form .heart {
+  display: inline-block;
+  width: 7%;
+  position: relative;
+  top: 3px;
+}
+
+form .add-comment {
+  display: inline-block;
+  width: 70%;
+}
+
+form .options {
+  display: inline-block;
+  width: 7%;
+  float: right;
+  position: relative;
+  top: 3px;
+}
+
+.add-comment input {
+  width: 100%;
+  padding: 5px;
+  border: 0 solid #fff;
+}
+
+hr {
+  padding: 0;
 }
